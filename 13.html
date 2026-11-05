@@ -1,0 +1,51 @@
+<html>
+    <body>
+        <label>Enter a string:</label><br>
+                <input type="text" name="str" id="str1"><br><br>
+        <label>enter number</label>
+               <input type="text"name="text1" id="id1"><br><br>
+        <label>enter power</label>
+                <input type="text"name="text2"id="id2"><br><br>
+    <script language="javascript" type="text/javascript">
+                      function add()
+                               {
+                                      var a,b,c,n,m,i,s,sl,sli;
+                                      s=(document.getElementById("str1").value);
+                                      sl=s.length;
+                                      sli=s.slice(5,11);
+                                      a=(document.getElementById("id1").value);
+                                      b=(document.getElementById("id2").value);
+                                      c=math.pow(a,b);
+                                      n=math.sprt(a);
+                                      m=math.ceil(a);
+                                      i=math.floor(a);
+
+                                     (documents.getElementById("strlen").value)=sl;
+                                     (documenmts.getElementById("strli").value)=sli;
+                                     (dopcument.getElementById("ans").value)=c;
+                                     (documents.getElementById("sqr").value)=n;
+                                     (documents.getElementById("ceil").value)=m;
+                                     (documents.getElementById("floor").value)=i;
+                               }
+     </script>
+     <br><br> 
+     <button onclick="add()">Get Result</button>
+     <br><br>
+     <label><b><u>length of the string:</u></b></label>
+              <input type="text" id="strlen"><br><br>
+     <label><b><u>Slicestring:</u></b></label><br>
+              <input type="text" id="strsli"><br><br>
+     <label><b><u>power of anumber</u></b></label><br>
+              <input type="text" id="ans"><br><br>
+     <label><b><u>square root of the number</u></b></label><br>
+              <input type="text" id="sqr"><br><br>
+     <label><b><u>ceiling of the number</u></b></label><br>
+              <input type="text" id="celi"><br><br>
+     <label><b><u>floor of the number</u></b></label><br>
+              <input type="text" id="floor">
+
+
+
+
+    </body>
+</html>
